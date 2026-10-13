@@ -1,1 +1,129 @@
-<!doctype html><meta charset=utf-8><title>กำลังเตรียมข้อมูล</title><p>กำลังเตรียมข้อมูล…
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>งาน MT ชายแดนใต้</title>
+<meta name="description" content="ประกาศรับสมัครนักเทคนิคการแพทย์ ปัตตานี ยะลา นราธิวาส อัปเดตอัตโนมัติ">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
+<style>
+@font-face{font-family:"LINE Seed Sans TH";src:url(fonts/LINESeedSansTH_W_Rg.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"LINE Seed Sans TH";src:url(fonts/LINESeedSansTH_W_Bd.woff2) format("woff2");font-weight:700;font-display:swap}
+:root{--bg:#fff;--ink:#1F2937;--muted:#8A9099;--line:#E5E7EB;--chip:#111827;--blue:#2F6BFF;--orange:#F08A4B;--bubble:#DDE8FF;--red:#D93025;--green:#16A34A}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"LINE Seed Sans TH",system-ui,-apple-system,"Noto Sans Thai",sans-serif;line-height:1.55}
+.wrap{max-width:980px;margin:0 auto;padding:40px 16px 64px}
+h1{margin:0;font-size:clamp(28px,5vw,44px);line-height:1.2;font-weight:700}
+h1 .l1{display:block;color:var(--muted)}
+h1 .l2{position:relative;display:inline-block}
+h1 svg{position:absolute;left:-2%;bottom:-12px;width:104%;height:16px}
+.lead{margin:22px 0 0;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:32px 0}
+.stat{border:1px solid var(--line);border-radius:28px;padding:18px 20px}
+.stat b{display:block;font-size:34px;line-height:1.1}
+.stat span{color:var(--muted);font-size:14px}
+.stat.hl b{background:linear-gradient(90deg,var(--blue),var(--orange));-webkit-background-clip:text;background-clip:text;color:transparent}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.chip{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:8px 16px;font:inherit;font-size:14px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--chip);border-color:var(--chip);color:#fff}
+.list{display:grid;gap:14px;margin-top:20px}
+.card{border:1px solid var(--line);border-radius:30px;padding:22px 24px;display:grid;gap:10px}
+.card.closed{opacity:.55}
+.top{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.badge{border-radius:999px;padding:3px 12px;font-size:12px;font-weight:700;background:var(--chip);color:#fff}
+.badge.soft{background:var(--bubble);color:var(--ink);font-weight:400}
+.badge.warn{background:var(--orange)}
+.card h3{margin:0;font-size:18px;line-height:1.45}
+.meta{display:flex;flex-wrap:wrap;gap:4px 18px;color:var(--muted);font-size:14px}
+.meta b{color:var(--ink);font-weight:400}
+.due{font-weight:700}
+.due.soon{color:var(--red)}
+.due.ok{color:var(--green)}
+.card a.btn{justify-self:start;background:var(--chip);color:#fff;text-decoration:none;border-radius:999px;padding:8px 18px;font-size:14px}
+.empty{border:1px dashed var(--line);border-radius:28px;padding:40px;text-align:center;color:var(--muted)}
+details{margin-top:48px;border:1px solid var(--line);border-radius:28px;padding:18px 22px}
+summary{cursor:pointer;font-weight:700}
+table{width:100%;border-collapse:collapse;margin-top:14px;font-size:14px}
+td,th{text-align:left;padding:8px 6px;border-top:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:400}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px}
+.dot.ok{background:var(--green)}.dot.error{background:var(--red)}.dot.pending{background:var(--orange)}.dot.disabled{background:var(--line)}
+td a{color:var(--blue);word-break:break-all}
+footer{margin-top:28px;color:var(--muted);font-size:13px}
+@media (max-width:600px){.stats{grid-template-columns:1fr 1fr}.stat:first-child{grid-column:1/-1}.card{padding:18px}.hide-m{display:none}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <h1><span class="l1">ประกาศรับสมัคร</span><span class="l2">นักเทคนิคการแพทย์ ชายแดนใต้
+    <svg viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2F6BFF"/><stop offset="1" stop-color="#F08A4B"/></linearGradient></defs><path d="M3 11 C 60 4, 140 3, 200 7 S 280 12, 297 6" fill="none" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/></svg></span></h1>
+  <p class="lead">ปัตตานี · ยะลา · นราธิวาส — รวบรวมอัตโนมัติจากเว็บโรงพยาบาล สสจ. มหาวิทยาลัย และ ก.พ.</p>
+
+  <section class="stats" id="stats"></section>
+
+  <div class="chips" id="f-status" role="group" aria-label="สถานะ"></div>
+  <div class="chips" id="f-prov" role="group" aria-label="จังหวัด"></div>
+  <section class="list" id="list"></section>
+
+  <details>
+    <summary>แหล่งข้อมูลที่เฝ้าดู (<span id="src-count"></span>)</summary>
+    <table><thead><tr><th>หน่วยงาน</th><th class="hide-m">จังหวัด</th><th>สถานะ</th></tr></thead><tbody id="src"></tbody></table>
+  </details>
+  <footer id="foot"></footer>
+</main>
+<script>
+const DATA = {"generated": "2026-10-14T01:32", "items": [{"title": "ประกาศรับสมัครบุคคลเพื่อสรรหาและเลือกสรรเป็นพนักงานกระทรวงสาธารณสุขทั่วไป", "url": "https://drive.google.com/file/d/14ePuDkS50QsIm5_yOyzoCjG1h2aUxT1i/view?usp=sharing", "status": "manual", "stage": "รับสมัคร", "employment": "พนักงานกระทรวงสาธารณสุข", "posted_date": "2026-10-14", "deadline": null, "org": "สสจ.ยะลา", "province": "ยะลา", "first_seen": "2026-10-14T01:19:17", "source_id": "ssj-yala"}, {"title": "(NEW) ประกาศคณะกรรมการคัดเลือกเพื่อบรรจุและแต่งตั้งบุคคลเข้ารับราชการ", "url": "https://pattanihos.moph.go.th/legacy-article-805/", "status": "manual", "stage": "ประกาศ", "employment": "ข้าราชการ", "posted_date": "2026-10-14", "deadline": null, "org": "รพ.ปัตตานี", "province": "ปัตตานี", "first_seen": "2026-10-14T01:23:55", "source_id": "pattani-hosp"}, {"title": "ประกาศรับสมัครคัดเลือกบุคคลเพื่อสอบคัดเลือกเข้าเป็นลูกจ้างเหมาบริการ", "url": "http://yaranghospital.com/web/index.php/ข่าวประชาสัมพันธ์/15-รับสมัครงาน/314-jop2566-1", "status": "manual", "stage": "รับสมัคร", "employment": "ลูกจ้างเหมาบริการ", "posted_date": "2026-10-14", "deadline": null, "org": "รพ.ยะรัง", "province": "ปัตตานี", "first_seen": "2026-10-14T01:25:04", "source_id": "yarang"}, {"title": "ประกาศรับสมัครคัดเลือกบุคคลเพื่อสอบคัดเลือกเข้าเป็นลูกจ้างเหมาบริการ", "url": "http://yaranghospital.com/web/index.php/ข่าวประชาสัมพันธ์/15-รับสมัครงาน/316-jop2566-3", "status": "manual", "stage": "รับสมัคร", "employment": "ลูกจ้างเหมาบริการ", "posted_date": "2026-10-14", "deadline": null, "org": "รพ.ยะรัง", "province": "ปัตตานี", "first_seen": "2026-10-14T01:25:11", "source_id": "yarang"}, {"title": "รับสมัครคัดเลือกเพื่อบรรจุและแต่งตั้งบุคคลเข้ารับราชการในตำแหน่งนักเทคนิคการแพทย์ปฏิบัติการ และตำแหน่งนักรังสีการแพทย์ปฏิบัติการ สังกัดสำนักงานสาธารณสุขจังหวัดปัตตานี (เปิดรับสมัครวันที่ 1 กันยายน 2568 - 5 กันยายน 2568 )", "url": "https://sasukpattani.thaijobjob.com/202508/index.php", "status": "matched", "stage": "รับสมัคร", "employment": "ข้าราชการ", "posted_date": "2026-10-14", "deadline": null, "org": "สสจ.ปัตตานี (ระบบรับสมัครสอบ thaijobjob)", "province": "ปัตตานี", "first_seen": "2026-10-14T01:17:09", "source_id": "ssj-pattani-exam"}, {"title": "ประกาศรายชื่อผู้มีสิทธิสอบคัดเลือกบุคคลเป็นลูกจ้างเหมาบริการ ตำแหน่ง นักเทคนิคการแพทย์", "url": "https://www.yalahospital.go.th/yrhweb/blog_detail.php?blog_id=909", "status": "matched", "stage": "รายชื่อผู้มีสิทธิ์สอบ", "employment": "ลูกจ้างเหมาบริการ", "posted_date": "2026-10-14", "deadline": null, "org": "รพ.ศูนย์ยะลา", "province": "ยะลา", "first_seen": "2026-10-14T01:19:41", "source_id": "yala-hosp"}, {"title": "ข่าวสมัครงาน 6 มีนาคม 2025 รับสมัครบุคคลลเพื่อสอบคัดเลือกเป็นลูกจ้างเหมาบริการ ตำแหน่งนักเทคนิคการแพทย์ ดาว์นโหลดไฟล์ประกาศ", "url": "https://bachohospital.moph.go.th/%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b8%aa%e0%b8%a1%e0%b8%b1%e0%b8%84%e0%b8%a3%e0%b8%9a%e0%b8%b8%e0%b8%84%e0%b8%84%e0%b8%a5%e0%b8%a5%e0%b9%80%e0%b8%9e%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%aa%e0%b8%ad%e0%b8%9a/", "status": "matched", "stage": "รับสมัคร", "employment": "ลูกจ้างเหมาบริการ", "posted_date": "2026-10-14", "deadline": null, "org": "รพ.บาเจาะ", "province": "นราธิวาส", "first_seen": "2026-10-14T01:29:26", "source_id": "bacho"}], "sources": [{"name": "ศูนย์สรรหา ก.พ. (job.ocsc.go.th)", "province": "ทั้งประเทศ", "kind": "ระบบกลางราชการ", "url": "https://job.ocsc.go.th/", "state": "ok", "last_ok": "2026-10-14T01:16:07", "error": null}, {"name": "สคร.12 สงขลา", "province": "สงขลา (เขต 12)", "kind": "หน่วยงานเขต", "url": "https://ddc.moph.go.th/odpc12/newshr.php", "state": "disabled", "last_ok": null, "error": null}, {"name": "สสจ.ปัตตานี", "province": "ปัตตานี", "kind": "สสจ.", "url": "https://ptn.moph.go.th/ptn/", "state": "ok", "last_ok": "2026-10-14T01:16:12", "error": null}, {"name": "สสจ.ปัตตานี (ระบบรับสมัครสอบ thaijobjob)", "province": "ปัตตานี", "kind": "สสจ.", "url": "https://sasukpattani.thaijobjob.com/landing/landingmange.php", "state": "ok", "last_ok": "2026-10-14T01:19:13", "error": null}, {"name": "สสจ.ยะลา", "province": "ยะลา", "kind": "สสจ.", "url": "https://ylo.moph.go.th/webssj/Pr/pr_job{be2}", "state": "ok", "last_ok": "2026-10-14T01:19:17", "error": null}, {"name": "สสจ.ยะลา (ระบบรับสมัครสอบ thaijobjob)", "province": "ยะลา", "kind": "สสจ.", "url": "https://ylo.thaijobjob.com/landing/landingmange.php", "state": "ok", "last_ok": "2026-10-14T01:19:30", "error": null}, {"name": "สสจ.นราธิวาส", "province": "นราธิวาส", "kind": "สสจ.", "url": "https://ntwo.moph.go.th/moph-nwt/", "state": "ok", "last_ok": "2026-10-14T01:19:36", "error": null}, {"name": "รพ.ศูนย์ยะลา", "province": "ยะลา", "kind": "รพ.ศูนย์", "url": "https://www.yalahospital.go.th/yrhweb/job_list.php", "state": "ok", "last_ok": "2026-10-14T01:19:41", "error": null}, {"name": "รพ.เบตง", "province": "ยะลา", "kind": "รพ.ทั่วไป", "url": "https://www.betonghospital.net/BTH-new-web/News/index.html", "state": "ok", "last_ok": "2026-10-14T01:19:50", "error": null}, {"name": "รพ.บันนังสตาอินทรฉัตร", "province": "ยะลา", "kind": "รพ.ชุมชน", "url": "https://www.bnshos.com/รับสมัครงาน", "state": "ok", "last_ok": "2026-10-14T01:19:52", "error": null}, {"name": "รพ.ธารโต", "province": "ยะลา", "kind": "รพ.ชุมชน", "url": "https://thantohos.moph.go.th/", "state": "ok", "last_ok": "2026-10-14T01:19:57", "error": null}, {"name": "รพ.สมเด็จพระยุพราชยะหา", "province": "ยะลา", "kind": "รพ.ชุมชน", "url": "https://www.yahahospital.go.th/website/", "state": "ok", "last_ok": "2026-10-14T01:20:20", "error": null}, {"name": "รพ.รามัน", "province": "ยะลา", "kind": "รพ.ชุมชน", "url": "https://ramanhospital.org/19/?cat=3", "state": "ok", "last_ok": "2026-10-14T01:20:41", "error": null}, {"name": "รพ.กาบัง", "province": "ยะลา", "kind": "รพ.ชุมชน", "url": "https://kabanghospital.go.th/kabang/category/สมัครบุคลากร/", "state": "ok", "last_ok": "2026-10-14T01:21:41", "error": null}, {"name": "รพ.กรงปินัง", "province": "ยะลา", "kind": "รพ.ชุมชน", "url": "https://www.kpnhospital.com/?cat=18", "state": "ok", "last_ok": "2026-10-14T01:23:34", "error": null}, {"name": "รพ.ปัตตานี", "province": "ปัตตานี", "kind": "รพ.ทั่วไป", "url": "https://pattanihos.moph.go.th/", "state": "ok", "last_ok": "2026-10-14T01:23:55", "error": null}, {"name": "รพ.โคกโพธิ์", "province": "ปัตตานี", "kind": "รพ.ชุมชน", "url": "https://khokphohos.moph.go.th/kp2023/", "state": "ok", "last_ok": "2026-10-14T01:24:30", "error": null}, {"name": "รพ.หนองจิก", "province": "ปัตตานี", "kind": "รพ.ชุมชน", "url": "https://nongjik.moph.go.th/", "state": "ok", "last_ok": "2026-10-14T01:24:58", "error": null}, {"name": "รพ.ยะรัง", "province": "ปัตตานี", "kind": "รพ.ชุมชน", "url": "http://yaranghospital.com/web/index.php/ข่าวประชาสัมพันธ์/รับสมัครงาน", "state": "ok", "last_ok": "2026-10-14T01:25:25", "error": null}, {"name": "รพ.ยะหริ่ง", "province": "ปัตตานี", "kind": "รพ.ชุมชน", "url": "https://www.yaringhospital.go.th/yrih/home.php?category=สมัครงาน", "state": "ok", "last_ok": "2026-10-14T01:25:36", "error": null}, {"name": "รพ.กะพ้อ", "province": "ปัตตานี", "kind": "รพ.ชุมชน", "url": "https://kaphohos.moph.go.th/im/index.php", "state": "ok", "last_ok": "2026-10-14T01:26:00", "error": null}, {"name": "รพ.ทุ่งยางแดง", "province": "ปัตตานี", "kind": "รพ.ชุมชน", "url": "https://tyd.moph.go.th/", "state": "ok", "last_ok": "2026-10-14T01:26:11", "error": null}, {"name": "รพ.แม่ลาน", "province": "ปัตตานี", "kind": "รพ.ชุมชน", "url": "https://maelan.moph.go.th/Web/", "state": "ok", "last_ok": "2026-10-14T01:26:14", "error": null}, {"name": "รพ.สมเด็จพระยุพราชสายบุรี", "province": "ปัตตานี", "kind": "รพ.ชุมชน", "url": "http://saiburihospital.moph.go.th/", "state": "ok", "last_ok": "2026-10-14T01:26:23", "error": null}, {"name": "รพ.ปะนาเระ", "province": "ปัตตานี", "kind": "รพ.ชุมชน", "url": "http://panarehos.moph.go.th/", "state": "pending", "last_ok": null, "error": "ConnectTimeout: HTTPConnectionPool(host='panarehos.moph.go.th', port=80): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPConnection(host='panarehos.moph.go.th', port=80) at 0x1091036f0>, 'Connection to panarehos.moph.go.th timed out. (connect timeout=25)'))"}, {"name": "รพ.ไม้แก่น", "province": "ปัตตานี", "kind": "รพ.ชุมชน", "url": "http://maikaenhos.moph.go.th/", "state": "pending", "last_ok": null, "error": "ConnectTimeout: HTTPConnectionPool(host='maikaenhos.moph.go.th', port=80): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPConnection(host='maikaenhos.moph.go.th', port=80) at 0x109163460>, 'Connection to maikaenhos.moph.go.th timed out. (connect timeout=25)'))"}, {"name": "รพ.มายอ", "province": "ปัตตานี", "kind": "รพ.ชุมชน", "url": "http://mayohos.moph.go.th/", "state": "disabled", "last_ok": null, "error": null}, {"name": "รพ.นราธิวาสราชนครินทร์", "province": "นราธิวาส", "kind": "รพ.ทั่วไป", "url": "https://narahospital.moph.go.th/th/news/category/14764-สมัครงาน", "state": "ok", "last_ok": "2026-10-14T01:28:21", "error": null}, {"name": "รพ.สุไหงโก-ลก", "province": "นราธิวาส", "kind": "รพ.ทั่วไป", "url": "https://kolokhospital.com/category/jobs", "state": "ok", "last_ok": "2026-10-14T01:28:56", "error": null}, {"name": "รพ.สมเด็จพระยุพราชตากใบ", "province": "นราธิวาส", "kind": "รพ.ชุมชน", "url": "https://takbaihospital.moph.go.th/", "state": "ok", "last_ok": "2026-10-14T01:29:17", "error": null}, {"name": "รพ.บาเจาะ", "province": "นราธิวาส", "kind": "รพ.ชุมชน", "url": "https://bachohospital.moph.go.th/category/job-news/", "state": "ok", "last_ok": "2026-10-14T01:29:43", "error": null}, {"name": "รพ.ยี่งอเฉลิมพระเกียรติ", "province": "นราธิวาส", "kind": "รพ.ชุมชน", "url": "https://yingohospital.moph.go.th/feed/", "state": "ok", "last_ok": "2026-10-14T01:29:47", "error": null}, {"name": "รพ.ระแงะ", "province": "นราธิวาส", "kind": "รพ.ชุมชน", "url": "https://rangae.moph.go.th/web_68/", "state": "ok", "last_ok": "2026-10-14T01:29:52", "error": null}, {"name": "รพ.ศรีสาคร", "province": "นราธิวาส", "kind": "รพ.ชุมชน", "url": "http://srisakhonhospital.moph.go.th/", "state": "ok", "last_ok": "2026-10-14T01:30:34", "error": null}, {"name": "รพ.เจาะไอร้อง", "province": "นราธิวาส", "kind": "รพ.ชุมชน", "url": "https://choaironghospital.org/สมัครงาน/", "state": "ok", "last_ok": "2026-10-14T01:30:40", "error": null}, {"name": "รพ.สุคิริน", "province": "นราธิวาส", "kind": "รพ.ชุมชน", "url": "https://sukhirinhospital.moph.go.th/myapp/", "state": "ok", "last_ok": "2026-10-14T01:30:42", "error": null}, {"name": "รพ.รือเสาะ", "province": "นราธิวาส", "kind": "รพ.ชุมชน", "url": "http://ruesohospital.moph.go.th/", "state": "pending", "last_ok": null, "error": "ConnectTimeout: HTTPConnectionPool(host='ruesohospital.moph.go.th', port=80): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPConnection(host='ruesohospital.moph.go.th', port=80) at 0x109022030>, 'Connection to ruesohospital.moph.go.th timed out. (connect timeout=25)')"}, {"name": "รพ.สุไหงปาดี", "province": "นราธิวาส", "kind": "รพ.ชุมชน", "url": "https://spd.moph.go.th/", "state": "pending", "last_ok": null, "error": "RuntimeError: HTTP 403"}, {"name": "รพ.แว้ง", "province": "นราธิวาส", "kind": "รพ.ชุมชน", "url": "http://waenghospital.moph.go.th/", "state": "disabled", "last_ok": null, "error": null}, {"name": "รพ.จะแนะ", "province": "นราธิวาส", "kind": "รพ.ชุมชน", "url": "http://chanaehospital.moph.go.th/", "state": "disabled", "last_ok": null, "error": null}, {"name": "มหาวิทยาลัยนราธิวาสราชนครินทร์", "province": "นราธิวาส", "kind": "มหาวิทยาลัย", "url": "https://www.pnu.ac.th/category/recruit-th/", "state": "ok", "last_ok": "2026-10-14T01:31:59", "error": null}, {"name": "ม.อ. วิทยาเขตปัตตานี", "province": "ปัตตานี", "kind": "มหาวิทยาลัย", "url": "https://www.psu.ac.th/pattani/", "state": "ok", "last_ok": "2026-10-14T01:32:06", "error": null}, {"name": "รพ.สิโรรส (เอกชน)", "province": "ยะลา", "kind": "เอกชน", "url": "https://www.siroroshospital.com/jobs.php", "state": "ok", "last_ok": "2026-10-14T01:32:12", "error": null}, {"name": "รพ.ราษฎร์นรา (เอกชน)", "province": "นราธิวาส", "kind": "เอกชน", "url": "https://rajnarahospital.com/", "state": "ok", "last_ok": "2026-10-14T01:32:14", "error": null}, {"name": "Job Alert (JobThai / JobsDB)", "province": "ทั้งประเทศ", "kind": "เว็บหางาน", "url": "", "state": "disabled", "last_ok": null, "error": null}]};
+const M = ["","ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];
+const td = s => { if(!s) return "-"; const d=new Date(s.slice(0,10)+"T00:00:00"); return `${d.getDate()} ${M[d.getMonth()+1]} ${String(d.getFullYear()+543).slice(2)}`; };
+const today = new Date(); today.setHours(0,0,0,0);
+const daysLeft = s => s ? Math.round((new Date(s+"T00:00:00") - today)/864e5) : null;
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const items = DATA.items.map(it => {
+  const left = daysLeft(it.deadline);
+  const recent = (today - new Date((it.posted_date||it.first_seen).slice(0,10)+"T00:00:00"))/864e5 <= 30;
+  const recruiting = ["รับสมัคร","ขยายเวลารับสมัคร","ประกาศ"].includes(it.stage);
+  it.open = recruiting && (left !== null ? left >= 0 : recent);
+  it.left = left; return it;
+});
+const state = {status: "open", prov: "ทั้งหมด"};
+const S = [["open","เปิดรับอยู่"],["all","ทั้งหมด"],["manual","ต้องเปิดดูเอง"]];
+const P = ["ทั้งหมด","ปัตตานี","ยะลา","นราธิวาส"];
+
+function chips(el, opts, key){
+  el.innerHTML = opts.map(([v,l]) => `<button class="chip" data-v="${v}" aria-pressed="${state[key]===v}">${l}</button>`).join("");
+  el.onclick = e => { const b=e.target.closest("button"); if(!b) return; state[key]=b.dataset.v; render(); };
+}
+function render(){
+  chips(document.getElementById("f-status"), S, "status");
+  chips(document.getElementById("f-prov"), P.map(p=>[p,p]), "prov");
+  const week = items.filter(i => (today - new Date(i.first_seen.slice(0,10)+"T00:00:00"))/864e5 <= 7).length;
+  document.getElementById("stats").innerHTML =
+    `<div class="stat hl"><b>${items.filter(i=>i.open).length}</b><span>ประกาศที่ยังเปิดรับ</span></div>
+     <div class="stat"><b>${week}</b><span>พบใหม่ใน 7 วัน</span></div>
+     <div class="stat"><b>${items.filter(i=>i.status==="manual").length}</b><span>ต้องเปิดดูเอง</span></div>`;
+  let list = items.filter(i => state.status==="all" || (state.status==="open" ? i.open : i.status==="manual"));
+  if (state.prov !== "ทั้งหมด") list = list.filter(i => i.province === state.prov);
+  if (state.status==="open") list.sort((a,b) => (a.left ?? 999) - (b.left ?? 999));
+  document.getElementById("list").innerHTML = list.length ? list.map(card).join("") :
+    `<div class="empty">ยังไม่มีประกาศในหมวดนี้ — ระบบตรวจวันละ 3 รอบ</div>`;
+}
+function card(i){
+  let due = "ไม่ระบุวันปิดรับ", cls = "";
+  if (i.left !== null) { due = i.left < 0 ? `ปิดรับแล้ว (${td(i.deadline)})` : i.left === 0 ? `ปิดรับวันนี้` : `ปิดรับ ${td(i.deadline)} · เหลือ ${i.left} วัน`; cls = i.left < 0 ? "" : i.left <= 3 ? "soon" : "ok"; }
+  return `<article class="card ${i.left!==null && i.left<0 ? "closed":""}">
+    <div class="top"><span class="badge ${i.status==="manual"?"warn":""}">${i.status==="manual"?"ต้องเปิดดูเอง":esc(i.stage||"ประกาศ")}</span>
+      ${i.employment?`<span class="badge soft">${esc(i.employment)}</span>`:""}<span class="badge soft">${esc(i.province||"")}</span></div>
+    <h3>${esc(i.title)}</h3>
+    <div class="meta"><span>หน่วยงาน <b>${esc(i.org||"-")}</b></span><span>ประกาศ <b>${td(i.posted_date)}</b></span><span class="due ${cls}">${due}</span></div>
+    <a class="btn" href="${esc(i.url)}" target="_blank" rel="noopener">เปิดประกาศ ↗</a></article>`;
+}
+const lbl = {ok:"ปกติ",error:"เข้าไม่ได้",pending:"รอตรวจ",disabled:"ปิดไว้"};
+document.getElementById("src-count").textContent = DATA.sources.length + " แห่ง";
+document.getElementById("src").innerHTML = DATA.sources.map(s =>
+  `<tr><td>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`:esc(s.name)}</td><td class="hide-m">${esc(s.province||"")}</td>
+   <td><span class="dot ${s.state}"></span>${lbl[s.state]}</td></tr>`).join("");
+document.getElementById("foot").textContent = `อัปเดตล่าสุด ${td(DATA.generated)} ${DATA.generated.slice(11,16)} น. · ข้อมูลจากเว็บไซต์ของหน่วยงาน โปรดตรวจสอบรายละเอียดกับประกาศต้นฉบับ`;
+render();
+</script>
+</body>
+</html>

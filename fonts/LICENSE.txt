@@ -1,0 +1,10 @@
+LINE Seed Sans TH — V1.003
+Copyright (c) LY Corporation.
+
+Released under the SIL Open Font License, Version 1.1.
+Full license and FAQ: https://scripts.sil.org/OFL
+Source: https://seed.line.me
+
+Free for personal and commercial use. The font software itself may not be sold
+by parties other than LY Corporation. Attribution is recommended for commercial
+use, which is why this notice ships alongside the font files.
