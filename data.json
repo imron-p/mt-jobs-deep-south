@@ -1,31 +1,19 @@
 {
- "generated": "2026-10-14T01:32",
+ "generated": "2026-10-14T01:37",
  "items": [
   {
-   "title": "ประกาศรับสมัครบุคคลเพื่อสรรหาและเลือกสรรเป็นพนักงานกระทรวงสาธารณสุขทั่วไป",
-   "url": "https://drive.google.com/file/d/14ePuDkS50QsIm5_yOyzoCjG1h2aUxT1i/view?usp=sharing",
+   "title": "ประกาศรับสมัครคัดเลือกบุคคลเพื่อสอบคัดเลือกเข้าเป็นลูกจ้างเหมาบริการ",
+   "url": "http://yaranghospital.com/web/index.php/ข่าวประชาสัมพันธ์/15-รับสมัครงาน/316-jop2566-3",
    "status": "manual",
    "stage": "รับสมัคร",
-   "employment": "พนักงานกระทรวงสาธารณสุข",
-   "posted_date": "2026-10-14",
+   "employment": "ลูกจ้างเหมาบริการ",
+   "posted_date": null,
    "deadline": null,
-   "org": "สสจ.ยะลา",
-   "province": "ยะลา",
-   "first_seen": "2026-10-14T01:19:17",
-   "source_id": "ssj-yala"
-  },
-  {
-   "title": "(NEW) ประกาศคณะกรรมการคัดเลือกเพื่อบรรจุและแต่งตั้งบุคคลเข้ารับราชการ",
-   "url": "https://pattanihos.moph.go.th/legacy-article-805/",
-   "status": "manual",
-   "stage": "ประกาศ",
-   "employment": "ข้าราชการ",
-   "posted_date": "2026-10-14",
-   "deadline": null,
-   "org": "รพ.ปัตตานี",
+   "org": "รพ.ยะรัง",
    "province": "ปัตตานี",
-   "first_seen": "2026-10-14T01:23:55",
-   "source_id": "pattani-hosp"
+   "first_seen": "2026-10-14T01:25:11",
+   "source_id": "yarang",
+   "backfill": 1
   },
   {
    "title": "ประกาศรับสมัครคัดเลือกบุคคลเพื่อสอบคัดเลือกเข้าเป็นลูกจ้างเหมาบริการ",
@@ -33,38 +21,27 @@
    "status": "manual",
    "stage": "รับสมัคร",
    "employment": "ลูกจ้างเหมาบริการ",
-   "posted_date": "2026-10-14",
+   "posted_date": null,
    "deadline": null,
    "org": "รพ.ยะรัง",
    "province": "ปัตตานี",
    "first_seen": "2026-10-14T01:25:04",
-   "source_id": "yarang"
+   "source_id": "yarang",
+   "backfill": 1
   },
   {
-   "title": "ประกาศรับสมัครคัดเลือกบุคคลเพื่อสอบคัดเลือกเข้าเป็นลูกจ้างเหมาบริการ",
-   "url": "http://yaranghospital.com/web/index.php/ข่าวประชาสัมพันธ์/15-รับสมัครงาน/316-jop2566-3",
+   "title": "(NEW) ประกาศคณะกรรมการคัดเลือกเพื่อบรรจุและแต่งตั้งบุคคลเข้ารับราชการ",
+   "url": "https://pattanihos.moph.go.th/legacy-article-805/",
    "status": "manual",
-   "stage": "รับสมัคร",
-   "employment": "ลูกจ้างเหมาบริการ",
-   "posted_date": "2026-10-14",
-   "deadline": null,
-   "org": "รพ.ยะรัง",
-   "province": "ปัตตานี",
-   "first_seen": "2026-10-14T01:25:11",
-   "source_id": "yarang"
-  },
-  {
-   "title": "รับสมัครคัดเลือกเพื่อบรรจุและแต่งตั้งบุคคลเข้ารับราชการในตำแหน่งนักเทคนิคการแพทย์ปฏิบัติการ และตำแหน่งนักรังสีการแพทย์ปฏิบัติการ สังกัดสำนักงานสาธารณสุขจังหวัดปัตตานี (เปิดรับสมัครวันที่ 1 กันยายน 2568 - 5 กันยายน 2568 )",
-   "url": "https://sasukpattani.thaijobjob.com/202508/index.php",
-   "status": "matched",
-   "stage": "รับสมัคร",
+   "stage": "ประกาศ",
    "employment": "ข้าราชการ",
-   "posted_date": "2026-10-14",
+   "posted_date": null,
    "deadline": null,
-   "org": "สสจ.ปัตตานี (ระบบรับสมัครสอบ thaijobjob)",
+   "org": "รพ.ปัตตานี",
    "province": "ปัตตานี",
-   "first_seen": "2026-10-14T01:17:09",
-   "source_id": "ssj-pattani-exam"
+   "first_seen": "2026-10-14T01:23:55",
+   "source_id": "pattani-hosp",
+   "backfill": 1
   },
   {
    "title": "ประกาศรายชื่อผู้มีสิทธิสอบคัดเลือกบุคคลเป็นลูกจ้างเหมาบริการ ตำแหน่ง นักเทคนิคการแพทย์",
@@ -72,25 +49,27 @@
    "status": "matched",
    "stage": "รายชื่อผู้มีสิทธิ์สอบ",
    "employment": "ลูกจ้างเหมาบริการ",
-   "posted_date": "2026-10-14",
+   "posted_date": null,
    "deadline": null,
    "org": "รพ.ศูนย์ยะลา",
    "province": "ยะลา",
    "first_seen": "2026-10-14T01:19:41",
-   "source_id": "yala-hosp"
+   "source_id": "yala-hosp",
+   "backfill": 1
   },
   {
-   "title": "ข่าวสมัครงาน 6 มีนาคม 2025 รับสมัครบุคคลลเพื่อสอบคัดเลือกเป็นลูกจ้างเหมาบริการ ตำแหน่งนักเทคนิคการแพทย์ ดาว์นโหลดไฟล์ประกาศ",
-   "url": "https://bachohospital.moph.go.th/%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b8%aa%e0%b8%a1%e0%b8%b1%e0%b8%84%e0%b8%a3%e0%b8%9a%e0%b8%b8%e0%b8%84%e0%b8%84%e0%b8%a5%e0%b8%a5%e0%b9%80%e0%b8%9e%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%aa%e0%b8%ad%e0%b8%9a/",
-   "status": "matched",
+   "title": "ประกาศรับสมัครบุคคลเพื่อสรรหาและเลือกสรรเป็นพนักงานกระทรวงสาธารณสุขทั่วไป",
+   "url": "https://drive.google.com/file/d/14ePuDkS50QsIm5_yOyzoCjG1h2aUxT1i/view?usp=sharing",
+   "status": "manual",
    "stage": "รับสมัคร",
-   "employment": "ลูกจ้างเหมาบริการ",
-   "posted_date": "2026-10-14",
+   "employment": "พนักงานกระทรวงสาธารณสุข",
+   "posted_date": null,
    "deadline": null,
-   "org": "รพ.บาเจาะ",
-   "province": "นราธิวาส",
-   "first_seen": "2026-10-14T01:29:26",
-   "source_id": "bacho"
+   "org": "สสจ.ยะลา",
+   "province": "ยะลา",
+   "first_seen": "2026-10-14T01:19:17",
+   "source_id": "ssj-yala",
+   "backfill": 1
   }
  ],
  "sources": [
