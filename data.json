@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T11:53",
+ "generated": "2026-10-29T12:54",
  "items": [
   {
    "id": "02b2686306fca4d02065790462227bbe8311a499",
@@ -25,7 +25,7 @@
    "kind": "ระบบกลางราชการ",
    "url": "https://job.ocsc.go.th/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:50:30",
+   "last_ok": "2026-10-29T12:51:16",
    "error": null
   },
   {
@@ -43,7 +43,7 @@
    "kind": "กรม",
    "url": "https://person.anamai.moph.go.th/th/cms-of-34",
    "state": "ok",
-   "last_ok": "2026-10-29T11:50:35",
+   "last_ok": "2026-10-29T12:51:21",
    "error": null
   },
   {
@@ -52,7 +52,7 @@
    "kind": "กรม",
    "url": "https://ddc.moph.go.th/index.php",
    "state": "ok",
-   "last_ok": "2026-10-29T11:50:37",
+   "last_ok": "2026-10-29T12:51:25",
    "error": null
   },
   {
@@ -61,7 +61,7 @@
    "kind": "หน่วยงานเขต",
    "url": "https://hpc12.anamai.moph.go.th/th/applyjob",
    "state": "ok",
-   "last_ok": "2026-10-29T11:50:41",
+   "last_ok": "2026-10-29T12:51:28",
    "error": null
   },
   {
@@ -124,7 +124,7 @@
    "kind": "สสจ.",
    "url": "https://ntwo.moph.go.th/moph-nwt/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:51:05",
+   "last_ok": "2026-10-29T12:51:54",
    "error": null
   },
   {
@@ -133,7 +133,7 @@
    "kind": "รพ.ศูนย์",
    "url": "https://www.yalahospital.go.th/yrhweb/job_list.php",
    "state": "ok",
-   "last_ok": "2026-10-29T11:51:08",
+   "last_ok": "2026-10-29T12:51:58",
    "error": null
   },
   {
@@ -142,7 +142,7 @@
    "kind": "รพ.ทั่วไป",
    "url": "https://www.betonghospital.net/BTH-new-web/News/index.html",
    "state": "ok",
-   "last_ok": "2026-10-29T11:51:11",
+   "last_ok": "2026-10-29T12:52:01",
    "error": null
   },
   {
@@ -151,7 +151,7 @@
    "kind": "รพ.ชุมชน",
    "url": "https://www.bnshos.com/รับสมัครงาน",
    "state": "ok",
-   "last_ok": "2026-10-29T11:51:14",
+   "last_ok": "2026-10-29T12:52:05",
    "error": null
   },
   {
@@ -169,7 +169,7 @@
    "kind": "รพ.ชุมชน",
    "url": "https://www.yahahospital.go.th/website/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:51:16",
+   "last_ok": "2026-10-29T12:52:08",
    "error": null
   },
   {
@@ -196,7 +196,7 @@
    "kind": "รพ.ชุมชน",
    "url": "https://www.kpnhospital.com/?cat=18",
    "state": "ok",
-   "last_ok": "2026-10-29T11:51:24",
+   "last_ok": "2026-10-29T12:52:15",
    "error": null
   },
   {
@@ -250,7 +250,7 @@
    "kind": "รพ.ชุมชน",
    "url": "https://kaphohos.moph.go.th/im/index.php",
    "state": "ok",
-   "last_ok": "2026-10-29T11:52:43",
+   "last_ok": "2026-10-29T12:53:34",
    "error": null
   },
   {
@@ -313,7 +313,7 @@
    "kind": "รพ.ทั่วไป",
    "url": "https://narahospital.moph.go.th/th/news/category/14764-สมัครงาน",
    "state": "ok",
-   "last_ok": "2026-10-29T11:52:48",
+   "last_ok": "2026-10-29T12:53:37",
    "error": null
   },
   {
@@ -322,7 +322,7 @@
    "kind": "รพ.ทั่วไป",
    "url": "https://kolokhospital.com/category/jobs",
    "state": "ok",
-   "last_ok": "2026-10-29T11:52:52",
+   "last_ok": "2026-10-29T12:53:41",
    "error": null
   },
   {
@@ -331,7 +331,7 @@
    "kind": "รพ.ชุมชน",
    "url": "https://takbaihospital.moph.go.th/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:52:54",
+   "last_ok": "2026-10-29T12:53:43",
    "error": null
   },
   {
@@ -340,7 +340,7 @@
    "kind": "รพ.ชุมชน",
    "url": "https://bachohospital.moph.go.th/category/job-news/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:52:58",
+   "last_ok": "2026-10-29T12:53:48",
    "error": null
   },
   {
@@ -367,7 +367,7 @@
    "kind": "รพ.ชุมชน",
    "url": "http://srisakhonhospital.moph.go.th/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:53:01",
+   "last_ok": "2026-10-29T12:53:50",
    "error": null
   },
   {
@@ -376,7 +376,7 @@
    "kind": "รพ.ชุมชน",
    "url": "https://choaironghospital.org/สมัครงาน/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:53:05",
+   "last_ok": "2026-10-29T12:53:54",
    "error": null
   },
   {
@@ -385,7 +385,7 @@
    "kind": "รพ.ชุมชน",
    "url": "https://sukhirinhospital.moph.go.th/myapp/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:53:06",
+   "last_ok": "2026-10-29T12:53:56",
    "error": null
   },
   {
@@ -439,7 +439,7 @@
    "kind": "อบจ.",
    "url": "https://yalapao.go.th/th/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:53:11",
+   "last_ok": "2026-10-29T12:54:01",
    "error": null
   },
   {
@@ -466,7 +466,7 @@
    "kind": "มหาวิทยาลัย",
    "url": "https://www.pnu.ac.th/category/recruit-th/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:53:15",
+   "last_ok": "2026-10-29T12:54:06",
    "error": null
   },
   {
@@ -475,7 +475,7 @@
    "kind": "มหาวิทยาลัย",
    "url": "https://www.psu.ac.th/pattani/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:53:20",
+   "last_ok": "2026-10-29T12:54:15",
    "error": null
   },
   {
@@ -484,7 +484,7 @@
    "kind": "เอกชน",
    "url": "https://www.siroroshospital.com/jobs.php",
    "state": "ok",
-   "last_ok": "2026-10-29T11:53:22",
+   "last_ok": "2026-10-29T12:54:17",
    "error": null
   },
   {
@@ -493,7 +493,7 @@
    "kind": "เอกชน",
    "url": "https://rajnarahospital.com/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:53:24",
+   "last_ok": "2026-10-29T12:54:19",
    "error": null
   },
   {
@@ -502,7 +502,7 @@
    "kind": "เว็บหางาน",
    "url": "https://www.jobthai.com/",
    "state": "ok",
-   "last_ok": "2026-10-29T11:53:37",
+   "last_ok": "2026-10-29T12:54:32",
    "error": null
   },
   {
